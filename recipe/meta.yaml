@@ -1,5 +1,5 @@
 {% set name = "django-cotton" %}
-{% set version = "1.5.0" %}
+{% set version = "1.5.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/django_cotton-{{ version }}.tar.gz
-  sha256: f85aac9f7247fbbc9c984310929cba15f76db0ffd3dca1d85f74319b13a75c9c
+  sha256: e758729ccb415fff9a1d6fe94e81cd1392ab91fc7ea7b0835995848eb5ea4920
 
 build:
   noarch: python
