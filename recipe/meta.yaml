@@ -21,7 +21,7 @@ requirements:
     - pip
   run:
     - python >={{ python_min }}
-    - django >=4.2,<5.2
+    - django >=4.2,<5.3
 
 test:
   imports:
