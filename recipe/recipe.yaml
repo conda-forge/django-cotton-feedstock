@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: django-cotton
-  version: "2.1.3"
+  version: "2.2.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/django_cotton-${{ version }}.tar.gz
-  sha256: 737f9c088549d7febbf78532856ddf1270799675a4bc9fa191a5db0e195a9c13
+  sha256: 20670161eed37a6c12319c44ec00ddff9f6e0c81df4f761c62185cab93a2fec0
 
 build:
   number: 0
