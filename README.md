@@ -7,7 +7,7 @@ Home: https://django-cotton.com/
 
 Package license: MIT
 
-Summary: Bringing component based design to Django templates.
+Summary: Enabling Modern UI Composition in Django.
 
 Development: https://github.com/wrabit/django-cotton
 
